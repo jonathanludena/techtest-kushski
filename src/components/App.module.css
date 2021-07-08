@@ -1,0 +1,122 @@
+.App {
+  margin-top: -50px;
+  width: 350px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+
+.paymentForm {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.paymentForm img {
+  margin-bottom: 20px;
+}
+
+.paymentForm h3 {
+  text-align: center;
+}
+
+.paymentForm form {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.paymentForm label {
+  font-size: small;
+  color: gray;
+  margin-bottom: 7px;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formMMYYCVC {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.formMMYYCVC input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.formGroup input {
+  padding: 5px;
+  border-radius: 5px;
+  /* width: 100%; */
+  border: 1px solid gray;
+}
+
+.fieldsMMYYCVC {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.paymentForm button {
+  background-color: #00E6B2;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.paymentForm button:hover {
+  background-color: #00fdc2;
+}
+
+.Test {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid lightskyblue;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.btnActionTest {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.Test h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.btnTestApproved {
+  background-color: lightcyan !important;
+  margin-right: 10px;
+  border: 1px solid lightgreen !important;
+}
+
+.btnTestApproved:hover {
+  background-color: lightgreen !important;
+}
+
+.btnTestDeclined {
+  background-color: lightsalmon !important;
+}
+
+.btnTestDeclined:hover {
+  background-color: salmon !important;
+}
