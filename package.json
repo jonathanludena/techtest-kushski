@@ -2,6 +2,7 @@
   "name": "techtest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jonathanludena.github.io/techtest-kushski",
   "dependencies": {
     "@kushki/js": "^1.21.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -14,6 +15,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
