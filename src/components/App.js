@@ -55,7 +55,7 @@ const App = () => {
             setSuccess(response.data);
           })
           .catch((error) => {
-            alert(error);
+            alert(`😥😮 Transacción declinada`);
           })
           .finally(() => {
             setIsLoading(false);
