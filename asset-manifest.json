@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/techtest-kushski/static/css/main.64a552ca.chunk.css",
-    "main.js": "/techtest-kushski/static/js/main.e8a99419.chunk.js",
-    "main.js.map": "/techtest-kushski/static/js/main.e8a99419.chunk.js.map",
+    "main.js": "/techtest-kushski/static/js/main.aea66e4a.chunk.js",
+    "main.js.map": "/techtest-kushski/static/js/main.aea66e4a.chunk.js.map",
     "runtime-main.js": "/techtest-kushski/static/js/runtime-main.3a20a7e0.js",
     "runtime-main.js.map": "/techtest-kushski/static/js/runtime-main.3a20a7e0.js.map",
     "static/js/2.2e97fc33.chunk.js": "/techtest-kushski/static/js/2.2e97fc33.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.3a20a7e0.js",
     "static/js/2.2e97fc33.chunk.js",
     "static/css/main.64a552ca.chunk.css",
-    "static/js/main.e8a99419.chunk.js"
+    "static/js/main.aea66e4a.chunk.js"
   ]
 }
